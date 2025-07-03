@@ -1,6 +1,6 @@
 Gen-Ed: Generative AI for Education
 ===================================
-
+My Main work is inspired from the below referenced Papers. I found problems in the existing system in codehelp such as unnecessary generation of tokens from LLMs which also increased the cost of LLMs . So I created one tool called Relatedness classifier which checks the inputs are correlated with each other. If they are related then it will generate the response and if not related then it wil ask the user to rephrase it. My main work was aimed on **CodeHelp** part of this repository.
 Gen-Ed is a framework for building web applications that use generative AI
 (LLMs) for education (i.e., organized around instructors and their classes of
 students for use in teaching and learning contexts).
@@ -21,6 +21,7 @@ The repository also contains two applications that are built on Gen-Ed:
 
 2. **Starburst**: A topic-exploration tool for writing assignments.
    <https://strbrst.xyz/>
+   
 
 #### References
 
@@ -36,6 +37,8 @@ Liffiton, Jaromir Savelka, and Paul Denny. 2024. In Proceedings of the 26th
 Australasian Computing Education Conference (ACE '24).  DOI:
 [10.1145/3636243.3636249](https://doi.org/10.1145/3636243.3636249)
 
+[3] [Detecting Code-Error-Issue Alignment for Virtual Teaching Assistants](https://drive.google.com/file/d/16nS1MjrU0c_No4v9q_4HqRDLaZKkFzYb/view?usp=sharing)
+Viren Bhalgamiya , Saurabh Tiwari
 
 Install
 -------
